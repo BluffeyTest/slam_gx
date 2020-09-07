@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/generate_test.dir/pangolinTest.cpp.o  -o generate_test -rdynamic /usr/local/lib/libpangolin.so -lrt -lpthread -lGLU -lGL -lGLEW -lSM -lICE -lX11 -lXext -lrt -lpthread -lGLU -lGL -lGLEW -lSM -lICE -lX11 -lXext -lpng -lz -ljpeg -ltiff -Wl,-rpath,/usr/local/lib 

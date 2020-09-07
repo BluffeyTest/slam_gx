@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named eigenExample
+# Target rules for targets named geometry
 
 # Build rule for target.
-eigenExample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eigenExample
-.PHONY : eigenExample
+geometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry
+.PHONY : geometry
 
 # fast build rule for target.
-eigenExample/fast:
-	$(MAKE) -f CMakeFiles/eigenExample.dir/build.make CMakeFiles/eigenExample.dir/build
-.PHONY : eigenExample/fast
+geometry/fast:
+	$(MAKE) -f CMakeFiles/geometry.dir/build.make CMakeFiles/geometry.dir/build
+.PHONY : geometry/fast
 
-coordinateTransform.o: coordinateTransform.cpp.o
+plotTrajectory.o: plotTrajectory.cpp.o
 
-.PHONY : coordinateTransform.o
+.PHONY : plotTrajectory.o
 
 # target to build an object file
-coordinateTransform.cpp.o:
-	$(MAKE) -f CMakeFiles/eigenExample.dir/build.make CMakeFiles/eigenExample.dir/coordinateTransform.cpp.o
-.PHONY : coordinateTransform.cpp.o
+plotTrajectory.cpp.o:
+	$(MAKE) -f CMakeFiles/geometry.dir/build.make CMakeFiles/geometry.dir/plotTrajectory.cpp.o
+.PHONY : plotTrajectory.cpp.o
 
-coordinateTransform.i: coordinateTransform.cpp.i
+plotTrajectory.i: plotTrajectory.cpp.i
 
-.PHONY : coordinateTransform.i
+.PHONY : plotTrajectory.i
 
 # target to preprocess a source file
-coordinateTransform.cpp.i:
-	$(MAKE) -f CMakeFiles/eigenExample.dir/build.make CMakeFiles/eigenExample.dir/coordinateTransform.cpp.i
-.PHONY : coordinateTransform.cpp.i
+plotTrajectory.cpp.i:
+	$(MAKE) -f CMakeFiles/geometry.dir/build.make CMakeFiles/geometry.dir/plotTrajectory.cpp.i
+.PHONY : plotTrajectory.cpp.i
 
-coordinateTransform.s: coordinateTransform.cpp.s
+plotTrajectory.s: plotTrajectory.cpp.s
 
-.PHONY : coordinateTransform.s
+.PHONY : plotTrajectory.s
 
 # target to generate assembly for a file
-coordinateTransform.cpp.s:
-	$(MAKE) -f CMakeFiles/eigenExample.dir/build.make CMakeFiles/eigenExample.dir/coordinateTransform.cpp.s
-.PHONY : coordinateTransform.cpp.s
+plotTrajectory.cpp.s:
+	$(MAKE) -f CMakeFiles/geometry.dir/build.make CMakeFiles/geometry.dir/plotTrajectory.cpp.s
+.PHONY : plotTrajectory.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... eigenExample"
-	@echo "... coordinateTransform.o"
-	@echo "... coordinateTransform.i"
-	@echo "... coordinateTransform.s"
+	@echo "... geometry"
+	@echo "... plotTrajectory.o"
+	@echo "... plotTrajectory.i"
+	@echo "... plotTrajectory.s"
 .PHONY : help
 
 

@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/HelloSLAM.dir/hello_slam.cpp.o  -o HelloSLAM -rdynamic 

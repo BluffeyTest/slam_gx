@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/plotTraje.dir/plotTrajectory.cpp.o  -o plotTraje -rdynamic 

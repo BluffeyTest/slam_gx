@@ -1,6 +1,0 @@
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/edit_cache.dir
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/rebuild_cache.dir
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/hello.dir
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/HelloSLAM.dir
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/hello_shared.dir
-/home/bluffey/Desktop/slam_gx/ch2/build/CMakeFiles/useHello.dir

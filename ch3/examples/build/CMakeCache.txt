@@ -165,6 +165,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for Pangolin.
+Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
+
+//Value Computed by CMake
+generate_test_BINARY_DIR:STATIC=/home/bluffey/Desktop/slam_gx/ch3/examples/build
+
+//Value Computed by CMake
+generate_test_SOURCE_DIR:STATIC=/home/bluffey/Desktop/slam_gx/ch3/examples
+
 //Value Computed by CMake
 geometry_BINARY_DIR:STATIC=/home/bluffey/Desktop/slam_gx/ch3/examples/build
 
