@@ -76,6 +76,7 @@ in `cpp/hpp`:
 //such as
 # include "sophus/se3.hpp"
 ```
+
 in`CMakeLists.txt`:
 ```
 find_package(Sophus REQUIRED)
